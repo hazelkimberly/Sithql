@@ -11,7 +11,6 @@
   max-height: calc(100vh - 50px);
   margin: 3.75rem auto;
   padding: 0 6.25rem;
-  color: var(--text-color);
 }
 
 /*-----------*
@@ -33,7 +32,6 @@
   padding-left: 1.8rem;
   border: 0;
   outline: none;
-  color: var(--text-color);
 }
 
 .search-icon {
@@ -42,7 +40,6 @@
   transform: translateY(-50%);
   width: 1.3rem;
   height: 1.3rem;
-  stroke: var(--text-color);
 }
 
 /*----------*
@@ -154,16 +151,15 @@
 .qa-helpful {
   width: 1.2rem;
   height: 1.2rem;
-  stroke: var(--text-color);
 }
 
 .qa-fill {
-  fill: var(--text-color);
+  fill: black;
 }
 
 .report-answer:hover,
 .qa-helpful:hover {
-  stroke: #a19992;
+  stroke: gray;
 }
 
 .qa-icon-button {
@@ -178,7 +174,6 @@
 .qa-add-answer-button {
   display: flex;
   align-items: center;
-  color: var(--text-color);
   font-weight: 600;
 }
 
@@ -187,8 +182,8 @@
 .load-more-answers:hover,
 .collapse-answers:hover,
 .qa-close-modal svg:hover {
-  color: #a19992;
-  fill: #a19992;
+  color: gray;
+  fill: gray;
 }
 
 button {
@@ -199,7 +194,6 @@ button {
 .collapse-answers {
   width: fit-content;
   font-weight: 600;
-  color: var(--text-color);
   font-size: 0.9rem;
   padding: 0;
 }
@@ -212,9 +206,8 @@ button {
 }
 
 .qa-button-container button {
-  border: 2.5px solid var(--text-color);
+  border: 2.5px solid;
   border-radius: 0.3rem;
-  color: var(--text-color);
   font-size: 1rem;
   font-weight: 600;
   padding: 1rem;
@@ -222,7 +215,7 @@ button {
 
 .qa-button-container button:hover {
   color: white;
-  background-color: var(--text-color);
+  background-color: black;
 }
 
 /*------*
@@ -230,7 +223,7 @@ button {
 *-------*/
 
 .qa-modal-background {
-  background: rgba(0, 0, 0, .7);
+  background: rgba(0, 0, 0, 0.7);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -325,7 +318,7 @@ button {
 }
 
 .qa-submit-form button {
-  background-color: var(--text-color);
+  background-color: black;
   border-radius: 0.2rem;
   color: white;
   width: 100%;
