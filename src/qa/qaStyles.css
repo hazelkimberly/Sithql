@@ -206,16 +206,16 @@ button {
 }
 
 .qa-button-container button {
-  border: 2.5px solid;
-  border-radius: 0.3rem;
+  border: 1.5px solid;
+  border-radius: 0.1rem;
   font-size: 1rem;
   font-weight: 600;
   padding: 1rem;
 }
 
 .qa-button-container button:hover {
-  color: white;
-  background-color: black;
+  color: gray;
+  background-color: white;
 }
 
 /*------*
