@@ -22,7 +22,10 @@ const App = () => {
 
   useEffect(() => {
     const getInfo = async () => {
-      const [product, meta] = await Promise.all([getProductInfo(currentProductId), getReviewMetaData(currentProductId)]);
+      const [product, meta] = await Promise.all([
+        getProductInfo(currentProductId),
+        getReviewMetaData(currentProductId),
+      ]);
       setMetaData(meta.data);
       setProductInfo(product.data);
     };
@@ -32,14 +35,25 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Overview productId={currentProductId} reviewsMetaData={metaData} productInfo={productInfo} />
+      <Overview
+        productId={currentProductId}
+        reviewsMetaData={metaData}
+        productInfo={productInfo}
+      />
       <RelatedProductsAndComparison
         currentProduct={currentProductId}
         setCurrentProduct={setCurrentProductId}
         currentProductInfo={productInfo}
       />
-      <QuestionsAndAnswers productId={currentProductId} productName={productInfo.name} />
-      <RatingsReviews id={currentProductId} productName={productInfo.name} metaData={metaData} />
+      <QuestionsAndAnswers
+        productId={currentProductId}
+        productName={productInfo.name}
+      />
+      <RatingsReviews
+        id={currentProductId}
+        productName={productInfo.name}
+        metaData={metaData}
+      />
     </div>
   );
 };
