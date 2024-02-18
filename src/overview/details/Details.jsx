@@ -1,4 +1,4 @@
-import React, {memo} from 'react';
+import React, { memo } from 'react';
 import { v4 as key } from 'uuid';
 import './styles.css';
 

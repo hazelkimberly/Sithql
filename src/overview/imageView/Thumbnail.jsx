@@ -12,7 +12,7 @@ const Thumbnail = ({ url, isSelected, expanded, updateThumbnail, index }) => {
         <div>&#10004;</div>
       </button>
     );
-  };
+  }
   if (isSelected) {
     return (
       <button
