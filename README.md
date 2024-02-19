@@ -21,59 +21,20 @@
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Installation & Setup](#installation--setup)
+- [Components](#components)
+- [Contributors](#contributors)
 
 ## Project Overview
--stuff here
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about">About</a>
-      <ul>
-        <li>
-          <a href="#built-with">Built With</a>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li>
-          <a href="#prerequisites">Prerequisites</a>
-        </li>
-        <li>
-          <a href="#installation">Installation</a>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="#usage">Usage</a>
-    </li>
-    <li>
-      <a href="#roadmap">Roadmap</a>
-    </li>
-    <li>
-      <a href="#optimizations">Optimizations</a>
-    </li>
-    <li>
-      <a href="#contact">Contact</a>
-    </li>
-  </ol>
-</details>
-
-## About
-
-<div align="center">
-  <img src="./client/src/assets/demo1.gif" alt="project landing page image" width="700px" />
-<br />
-  <img src="./client/src/assets/demo2.gif" alt="project landing page image" width="700px" />
-</div>
-
-<br />
-<p>
   Atelier is a desktop and mobile friendly app utilizing React and Express that enables users to browse through a collection of over 15 million products, add them to their outfits, read through a robust Q&A section, peruse the products ratings and reviews, and add products to their cart.
 </p>
+
+## Installation & Setup
+
+## Components
+
+## Contributors
 
 
 ## Getting Started
