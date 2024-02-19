@@ -27,90 +27,67 @@
 
 ## Project Overview
 
-  Atelier is a desktop and mobile friendly app utilizing React and Express that enables users to browse through a collection of over 15 million products, add them to their outfits, read through a robust Q&A section, peruse the products ratings and reviews, and add products to their cart.
-</p>
+Modern & Interactive front-end e-commerce web application (mobile-friendly) utilizing React and Express that enables users to browse through a collection of over 15 million products, add them to their outfits, read through a robust Q&A section, peruse the products ratings and reviews, and add products to their cart
 
 ## Installation & Setup
 
-## Components
-
-## Contributors
-
-
-## Getting Started
-
-<p>
-    Instructions to setup Project Atelier on your local machine below.
-</p>
-
-### Prerequisites
-
-![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
-
-```sh
-npm install npm@latest -g
+### Step 1
 ```
+$ npm install -g npm@latest
+$ git clone https://github.com/hazelkimberly/Sithql.git
+$ npm intall
+$ npm run build
+$ npm run start
+```
+### Step 2
+- Create a .env file and paste the following:
+```
+API_URL="https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp"
+GIT_TOKEN="your github token here"
+```
+### Step 3
+- Open http://localhost:3000
 
-### Installation
+***
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/Revenge-of-the-SithQL/atelier
-   ```
-1. Install NPM packages
-   ```sh
-   npm install
-   ```
-1. Enter your port, API URL, and Github Token in a new `.env` file
-   ```sh
-    API_URL=(your database URI)
-    GIT_TOKEN=(your github token)
-   ```
-1. Run build command.
-   ```sh
-   npm run build
-   ```
-1. Run in production environment
-   ```sh
-   npm run start
-   ```
+# Components
+- [Product Overview & Details](#product-overview--details)
+- [Related Products & Outfits](#related-products--outfits)
+- [Questions & Answers](#questions--answers)
+- [Ratings & Reviews](#ratings--reviews)
 
-## Usage
+## Product Overview & Details
 
-Atelier is run on the designated port and opens a webpage as soon as the npm start command is utilized. It can also be accessed utilizing localhost:3000 directly in the browser.
+## Related Products & Outfits
 
-Run tests: `npm run test `
+## Questions & Answers
 
-Run tests with coverage: `npm run test:coverage`
+## Ratings & Reviews
 
-<p align="right"><a href="#readme-top">back to top</a></p>
+***
 
-<!-- ROADMAP -->
+# Contributors
 
-## Roadmap
+### Nathaniel Wise
+[Product Overview & Details](#product-overview--details)
 
-- [x] Strategize each person's roles and widgets
-- [x] Setup the environment
-- [x] Create respective widgets
-- [x] Refactor and optimize code
-- [x] Deploy on AWS
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nathaniel-wise-911048283/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gralayer)
 
-## Optimizations
+### Jose Felix
+[Related Products & Outfits](#related-products--outfits)
 
-1.  Consolidate common API calls into shared components
-2.  Refactor to memoize variables to minimize unecessary re-renders
-3.  Optimize by code-splitting and tree-shaking to bring lighthouse scores up
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-m-felix/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jose-m-f)
 
-<!-- CONTACT -->
+### Hazel Kimberly Carcido
+[Questions & Answers](#questions--answers)
 
-## Contact
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hazelkimberly/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hazelkimberly)
 
-<h3 align='left'> Nathaniel Wise  <a href="https://www.linkedin.com/in/nathaniel-wise-911048283/">Linkedin</a> | <a href="https://github.com/Gralayer">GitHub</a></h3>
+### Steven Kim
+[Ratings & Reviews](#ratings--reviews)
 
-<h3 align='left'> Jose Felix <a href="https://www.linkedin.com/in/jose-m-felix/">Linkedin</a> | <a href="https://github.com/jose-m-f">GitHub</a> </h3>
-
-<h3 align='left'> Hazel Kimberly Carcido <a href="https://www.linkedin.com/in/hazelkcarcido/">Linkedin</a> | <a href="https://github.com/hazelkimberly">GitHub</a></h3>
-
-<h3 align='left'> Steven Kim <a href="https://www.linkedin.com/in/stevkim/">Linkedin</a> | <a href="https://github.com/stevkim">GitHub</a></h3>
-
-<p align="right"><a href="#readme-top">back to top</a></p>
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stevkim/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stevkim)
