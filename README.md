@@ -1,4 +1,4 @@
-<a id='readme-top'> </a>
+# Sithql
 
 <br />
 <div align="center">
@@ -64,6 +64,7 @@
 </p>
 
 ### Built With
+
 ![node.js](https://img.shields.io/badge/node-%23000000.svg?style=for-the-badge&logo=node.js)
 ![React](https://img.shields.io/badge/React-%23000000.svg?style=for-the-badge&logo=react&logoColor)
 ![Webpack](https://img.shields.io/badge/webpack-%23000000.svg?style=for-the-badge&logo=webpack)
@@ -82,7 +83,7 @@
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 
 ```sh
-npm install npm@latest -g 
+npm install npm@latest -g
 ```
 
 ### Installation
@@ -95,10 +96,10 @@ npm install npm@latest -g
    ```sh
    npm install
    ```
-1. Enter your port, API URL, and Github Token in `.env` file
+1. Enter your port, API URL, and Github Token in a new `.env` file
    ```sh
-    GIT_API_URL = (your database URI)
-    GIT_TOKEN = (your github token)
+    API_URL=(your database URI)
+    GIT_TOKEN=(your github token)
    ```
 1. Run build command.
    ```sh
@@ -113,10 +114,9 @@ npm install npm@latest -g
 
 Atelier is run on the designated port and opens a webpage as soon as the npm start command is utilized. It can also be accessed utilizing localhost:3000 directly in the browser.
 
-Run tests: ```npm run test ```
+Run tests: `npm run test `
 
-Run tests with coverage: ```npm run test:coverage```
-
+Run tests with coverage: `npm run test:coverage`
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -127,18 +127,19 @@ Run tests with coverage: ```npm run test:coverage```
 - [x] Strategize each person's roles and widgets
 - [x] Setup the environment
 - [x] Create respective widgets
-- [x] Refactor and optimize code 
+- [x] Refactor and optimize code
 - [x] Deploy on AWS
 
 ## Optimizations
 
- 1. Consolidate common API calls into shared components
- 2. Refactor to memoize variables to minimize unecessary re-renders
- 3. Optimize by code-splitting and tree-shaking to bring lighthouse scores up
+1.  Consolidate common API calls into shared components
+2.  Refactor to memoize variables to minimize unecessary re-renders
+3.  Optimize by code-splitting and tree-shaking to bring lighthouse scores up
 
 <!-- CONTACT -->
 
 ## Contact
+
 <h3 align='left'> Nathaniel Wise  <a href="https://www.linkedin.com/in/nathaniel-wise-911048283/">Linkedin</a> | <a href="https://github.com/Gralayer">GitHub</a></h3>
 
 <h3 align='left'> Jose Felix <a href="https://www.linkedin.com/in/jose-m-felix/">Linkedin</a> | <a href="https://github.com/jose-m-f">GitHub</a> </h3>
@@ -146,7 +147,5 @@ Run tests with coverage: ```npm run test:coverage```
 <h3 align='left'> Hazel Kimberly Carcido <a href="https://www.linkedin.com/in/hazelkcarcido/">Linkedin</a> | <a href="https://github.com/hazelkimberly">GitHub</a></h3>
 
 <h3 align='left'> Steven Kim <a href="https://www.linkedin.com/in/stevkim/">Linkedin</a> | <a href="https://github.com/stevkim">GitHub</a></h3>
-
-
 
 <p align="right"><a href="#readme-top">back to top</a></p>
