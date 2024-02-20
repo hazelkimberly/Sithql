@@ -91,8 +91,9 @@ GIT_TOKEN="your github token here"
 
 <br/>
 
-> Users can upvote questions or answers
-> Users can also report answers
+>Users can upvote questions or answers
+
+>Users can also report answers
 
 > <img src="./demo/LikeReport-ezgif.com-optimize.gif" alt="upvote q&a demo"/>
 
