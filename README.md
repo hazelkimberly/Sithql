@@ -75,6 +75,8 @@ GIT_TOKEN="your github token here"
 
 ## Questions & Answers
 
+<img src="./demo/Q&A.png" alt="q&a overview">
+
 <details open><summary><b>View Questions & Answers</b></summary>
 
 <br/>
