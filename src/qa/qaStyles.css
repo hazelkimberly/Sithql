@@ -5,9 +5,9 @@
 .qa-container {
   display: flex;
   flex-direction: column;
-  width: 78vw;
-  min-width: 980px;
-  max-width: 1400px;
+  width: 80%;
+  /* min-width: 980px; */
+  /* max-width: 1400px; */
   max-height: calc(100vh - 50px);
   margin: 3.75rem auto;
   padding: 0 6.25rem;
