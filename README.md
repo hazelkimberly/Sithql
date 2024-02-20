@@ -71,6 +71,8 @@ GIT_TOKEN="your github token here"
 
 ## Related Products & Outfits
 
+<img src="./demo/RelatedProductsDemo-ezgif.com-optimize.gif" alt="related products & outfits demo"/>
+
 ## Questions & Answers
 
 ## Ratings & Reviews
