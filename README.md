@@ -87,7 +87,30 @@ GIT_TOKEN="your github token here"
 
 </details>
 
+<details open><summary><b>Upvote Questions & Answers</b></summary>
+
+<br/>
+
+> Users can upvote questions or answers
+> Users can also report answers
+
+> <img src="./demo/LikeReport-ezgif.com-optimize.gif" alt="upvote q&a demo"/>
+
+</details>
+
+<details open><summary><b>Add Questions & Answers</b></summary>
+
+<br/>
+
+> Users can submit new questions and submit answers to already existing questions
+
+> <img src="./demo/AddQA-ezgif.com-optimize.gif" alt="add q&a demo"/>
+
+</details>
+
 ## Ratings & Reviews
+
+<img src="./demo/RatingsReviews-ezgif.com-optimize.gif" alt="ratings & reviews demo"/>
 
 ---
 
