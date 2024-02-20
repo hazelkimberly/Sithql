@@ -75,6 +75,16 @@ GIT_TOKEN="your github token here"
 
 ## Questions & Answers
 
+<details open><summary><b>View Questions & Answers</b></summary>
+
+<br/>
+
+> Users can search for a specific question and/or explore all the inquiries and inputs on a specific product
+
+> <img src="./demo/ViewQA-ezgif.com-optimize.gif" alt="view q&a demo"/>
+
+</details>
+
 ## Ratings & Reviews
 
 ---
