@@ -103,7 +103,7 @@ GIT_TOKEN="your github token here"
 
 <br/>
 
-> Users can submit new questions and submit answers to existing questions
+> Users can submit new inquiries and respond to existing questions
 
 > <img src="./demo/AddQA-ezgif.com-optimize.gif" alt="add q&a demo"/>
 
