@@ -81,7 +81,7 @@ GIT_TOKEN="your github token here"
 
 <br/>
 
-> Users can search for a specific question and/or explore all the inquiries and inputs on a specific product
+> Users can search for specific questions and explore all inquiries and inputs related to a specific product
 
 > <img src="./demo/ViewQA-ezgif.com-optimize.gif" alt="view q&a demo"/>
 
@@ -103,7 +103,7 @@ GIT_TOKEN="your github token here"
 
 <br/>
 
-> Users can submit new questions and submit answers to already existing questions
+> Users can submit new questions and submit answers to existing questions
 
 > <img src="./demo/AddQA-ezgif.com-optimize.gif" alt="add q&a demo"/>
 
